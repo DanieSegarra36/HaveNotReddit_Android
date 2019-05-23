@@ -3,4 +3,8 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="postColor">#c6c6c6</color>
+    <color name="darkBackground">#404040</color>
+    <color name="appHead">#3f3f3f</color>
+    <color name="darkMobileTopBar">#333333</color>
 </resources>

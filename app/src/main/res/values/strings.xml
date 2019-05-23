@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HaveNotReddit</string>
+    <string name="sign_in_with_reddit">Sign In With Reddit</string>
+    <string name="postTitle">Title</string>
+    <string name="postAuthor">by :</string>
+    <string name="postBody">Body</string>
+    <string name="upvotes">upvotes</string>
+    <string name="downvotes">downvotes</string>
+    <string name="subreddit">Subreddit</string>
+    <string name="url">URL</string>
 </resources>

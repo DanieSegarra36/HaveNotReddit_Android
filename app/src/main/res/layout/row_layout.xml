@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/darkBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postTitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/postColor"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/Author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/postAuthor"
+            android:textColor="@color/postColor"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/Subreddit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subreddit"
+            android:textColor="@color/postColor"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Upvotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upvotes"
+            android:textColor="@color/postColor" />
+
+        <TextView
+            android:id="@+id/Downvotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/downvotes"
+            android:textColor="@color/postColor" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/postBody"
+        android:textColor="@color/postColor" />
+
+    <TextView
+        android:id="@+id/URL"
+        android:autoLink="web"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/url"
+        android:textColor="@color/postColor"
+        android:gravity="center"/>
+</LinearLayout>

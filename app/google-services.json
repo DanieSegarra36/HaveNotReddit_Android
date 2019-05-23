@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "60876528216",
+    "firebase_url": "https://havenotreddit.firebaseio.com",
+    "project_id": "havenotreddit",
+    "storage_bucket": "havenotreddit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60876528216:android:1f1cfc703773d813",
+        "android_client_info": {
+          "package_name": "com.example.havenotreddit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60876528216-k2n2h9dqc4ub3a117rsv02vuajlb8b6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGwVJwIi3k1JZt0D0JwudTaK4x6qOjGQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60876528216-k2n2h9dqc4ub3a117rsv02vuajlb8b6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
