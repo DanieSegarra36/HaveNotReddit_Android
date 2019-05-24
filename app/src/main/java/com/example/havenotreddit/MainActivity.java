@@ -48,34 +48,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        FirebaseApp.initializeApp(this);
-//        final FirebaseDatabase database = FirebaseDatabase.getInstance();
-//        final DatabaseReference myRef = database.getReference("alarms");
-//
-//        // listens for new realtime database events and updates ui
-//        ValueEventListener alarmListener = new ValueEventListener() {
-//            @Override
-//            public void onDataChange(DataSnapshot dataSnapshot) {
-//                dataList.clear();
-//                adapter.notifyDataSetChanged();
-//                for(DataSnapshot singleSnapshot : dataSnapshot.getChildren()){
-//                    Log.d("snap_id: ", singleSnapshot.getKey());
-//                    String snapId = singleSnapshot.getKey();
-//                    cryptoAlarm oneAlarm = singleSnapshot.getValue(cryptoAlarm.class);
-//                    oneAlarm.setId(snapId);
-//                    dataList.add(oneAlarm);
-//                    adapter.notifyDataSetChanged();
-//                }
-//            }
-//
-//            @Override
-//            public void onCancelled(DatabaseError databaseError) {
-//                Log.w("fetch alarm", "loadPost:onCancelled",databaseError.toException());
-//            }
-//        };
-//
-//        myRef.addListenerForSingleValueEvent(alarmListener);
-//        myRef.addValueEventListener(alarmListener);
 
         adapter = new PostListAdapter(this , R.layout.row_layout, mySavedPosts);
         postView = (ListView) findViewById(R.id.postView);
